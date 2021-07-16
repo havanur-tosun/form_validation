@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    background-repeat: no-repeat;
+    background-repeat:repeat-y;
+}
 
 input {
     width: 100%;
@@ -13,14 +18,17 @@ input {
     margin-bottom: 16px;
 }
 
-button {
-    background-color: rgb(127, 63, 191);
+input[type=submit] {
+    background-color: #04AA6D;
     color: white;
 }
 
 .container {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 40px;
+    width: 40%;
+    margin-left:520px;
+    margin-top: 180px;
 }
 
 #message {
@@ -28,8 +36,10 @@ button {
     background-color: #f1f1f1;
     color: #000;
     position: relative;
-    padding: 20px;
+    padding: 40px;
     margin-top: 10px;
+    width: 40%;
+    margin-left: 520px;
 }
 
 #message p {
